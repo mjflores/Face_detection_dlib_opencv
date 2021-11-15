@@ -21,8 +21,8 @@ import cv2
 import dlib
 import time
 
-dirMMOD  =r"/home/mjflores/MEGA/Mis Programas/Datos/SP/mmod_human_face_detector.dat"
-dirFaces =r"/home/mjflores/MEGA/Mis Programas/Datos/Rostros/" 
+dirMMOD  =r"../mmod_human_face_detector.dat"
+dirFaces =r"../Faces/" 
 
 def ls(ruta = Path.cwd()):
     return [arch.name for arch in Path(ruta).iterdir() if arch.is_file()]
