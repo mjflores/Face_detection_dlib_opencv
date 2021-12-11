@@ -34,6 +34,7 @@ color = (0, 0, 255, 0)
 
 def detFaces_hog_svm():    
     ltImagenes = ls(dirFaces)
+    ltImagenes.sort()
     for ig in ltImagenes:
         image = cv2.resize(cv2.imread(dirFaces+ig),(640, 480))
         gray  = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
