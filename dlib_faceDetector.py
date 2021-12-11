@@ -89,7 +89,9 @@ def detFaces_cnn():
 
 
 #===================================================================
-# Face detection
-#detFaces_cnn()
-detFaces_hog_svm()
+
+if __name__ == "__main__":
+    # Face detection
+    #detFaces_cnn()
+    detFaces_hog_svm()
 
