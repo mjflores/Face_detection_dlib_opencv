@@ -1,6 +1,6 @@
-# face detection by using dlib and opencv
+# Face detection by using dlib and opencv
 
-Face detection by using opencv and dlib in python
+This script contains a program to detect humann faces by using opencv and dlib in python languaje. 
 
 ## Refences
  * Dlib: http://dlib.net/
