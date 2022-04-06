@@ -1,8 +1,7 @@
-# dlib_opencv_face
+# face detection by using dlib and opencv
 
 Face detection by using opencv and dlib in python
 
 ## Refences
- * http://dlib.net/
- 
- * https://opencv.org/
+ * Dlib: http://dlib.net/
+ * Opencv: https://opencv.org/
